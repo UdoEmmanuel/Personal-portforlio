@@ -3,6 +3,7 @@
     --main-font-color: #f0f0f0;
     --main-red: #be3144;
     --main-blue: #45567d;
+    --light-blue: #4556be;
     --main-gray: #303841;
 }
 
@@ -22,7 +23,7 @@ html {
 /* BASE STYLE */
 body {
     font-family: 'poppings', sans-serif;
-    font-size: 20vw;
+    font-size: 10vw;
     font-weight: 400;
     line-height: 1.4;
     color: var(--main-font-color);
@@ -109,5 +110,28 @@ a {
  .tab-list #profile-link:hover {
         background: var(--main-blue);
  }
+/* NAV END */
 
- /* NAV END */
+ /* WELCOME SECTION */
+ #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle, #3a3d40 0%, #181719 100%); }
+
+ #welcome-section h1 {
+    font-size: 4vw;
+ }
+
+ #welcome-section > p {
+    font-size: 2vw;
+    color: var(--light-blue);
+    font-style: italic;
+ }
+
+.my-name {
+    color: var(--main-red);
+ }

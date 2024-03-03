@@ -27,3 +27,87 @@ body {
     line-height: 1.4;
     color: var(--main-font-color);
 }
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-font-color)
+}
+
+/* NAV START*/
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+
+  /* NAV LOGO */
+  #logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .trading  {
+    color: red;
+    text-shadow: 2px 2px 4px #000, -1px -1px 4px #000;
+    font-weight: 700;
+  }
+
+  .experience  {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: var(--main-font-color);
+    background-color: #000;
+    text-shadow: 2px 2px 2px var(--main-gray), -1px -1px 2px var(--main-gray);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 5px 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+    height: 30px;
+  }
+
+ #tab-bar {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .tab-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: var(--main-font-color);
+    font-size: 22px;
+    margin-right: 20px;
+ }
+
+
+ .tab-list a {
+    display: block; /* MAKING THE LINK TAKE UP MAX SPACE SO OUR HOVER BG LOOKS NICE */
+    padding: 15px 5px; 
+}
+
+ /* MAKING THE LINK TAKE UP MAX SPACE SO OUR HOVER BG LOOKS NICE */
+ .tab-list #profile-link:hover {
+        background: var(--main-blue);
+ }
+
+ /* NAV END */

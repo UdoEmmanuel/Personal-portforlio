@@ -1,0 +1,29 @@
+/* CUSTOM PROPERTIES/VARIABLE */
+:root {
+    --main-font-color: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+/* BASE RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE RESET END */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BASE STYLE */
+body {
+    font-family: 'poppings', sans-serif;
+    font-size: 20vw;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-font-color);
+}
